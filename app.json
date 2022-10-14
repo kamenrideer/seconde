@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/introduce/introduce",
+    "pages/introduce2/introduce2",
+    "pages/pvp/pvp",
+    "pages/win/win",
+    "pages/lose/lose",
+    "pages/logs/logs",
+    "pages/choose/choose",
+    "pages/pvn/pvn",
+    "pages/tcp/tcp",
+    "pages/test/test"
+
+  ],
+  "subPackages": [
+    {
+      "root":"choose",
+      "name":"choose",
+      "pages":[
+        "pages/choose/choose"
+      ],
+      "independent": false
+    },{
+      "root":"win",
+      "name":"win",
+      "pages":[
+        "pages/win/win"
+      ],
+      "independent": false
+    }
+  ],
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFB6C1",
+    "navigationBarTitleText": "骰骰是道",
+    "navigationBarTextStyle":"black"
+  },
+  "sitemapLocation": "sitemap.json"
+  
+}
+
